@@ -2,7 +2,7 @@
 
 ### Retrieval of bulk LA County homeless count data using undocumented APIs, cleanup, and choropleth density charting.
 
-This is an extremely raw hack. The retrieval and cleanup code programs are some of my very first Python programming attempts, so they a very poor example of my coding style. They do does the job, but that's about it.
+This is an extremely raw hack. The retrieval and cleanup programs are some of my very first Python programming attempts, so they a very poor example of my professional coding style. They do the job, but that's about it.
 
 The charting program is a little better in terms of "Pythonic" usage, but again not meant for public consumption. It's more meant to mess around with creating choropleths at the census tract level.
 
