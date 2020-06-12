@@ -8,7 +8,7 @@ The charting program is a little better in terms of "Pythonic" usage, but again 
 
 The workflow is this:
 
-1) Get bulk JSON data using lahsa_counts_v2.py. Right now these are broken (they changed their API since I first wrote the code). I downloaded the latest data by hand by running a debugger inside Chrome. The API hook is https://wabi-west-us-api.analysis.windows.net/public/reports/querydata, but you need some API & resource keys (get by debugging in Chrome) and some structured query. The query setup is in the Python code but needs updating to the latest undocumented API.
+1) Get bulk JSON data using lahsa_counts_v2.py. Right now these are broken (they changed their API since I first wrote the code). I downloaded the latest data by hand by running a debugger inside Chrome on https://www.lahsa.org/data?id=13-2019-homeless-count-by-community-city. The API hook is https://wabi-west-us-api.analysis.windows.net/public/reports/querydata, but you need some API & resource keys (get by debugging in Chrome) and some structured query. The query setup is in the Python code but needs updating to the latest undocumented API.
 
 2) Extract key elements from the JSON using jq (you can download that here: https://stedolan.github.io/jq/). It is called from the jqprocALL.bat file (which uses 4NT (Take Command) syntax... may not work with Windows cmd or Powershell... definitely not bash).
 
