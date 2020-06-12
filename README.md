@@ -16,5 +16,5 @@ The workflow is this:
 
 4) Concatenate the yearly CSV files into one timeseries file using cat_all.bat.
 
-5) Create a single year choropleth (or animated version across years) using homelesscharts.py. This part also depends on a regular population census count by census tract within California, which I downloaded from IPUMS NHGIS by hand (see nhgis0002_csv.zip). It also needs GEOJSON descriptions of each census tract in California, which are downloaded automatically via this program. This program does a lot of density distribution analysis to try to get a good density color scale on the map. That part is still a work in progress.
+5) Create a single year choropleth (or animated version across years) using homelesscharts.py. This part also depends on a regular population census count by census tract within California, which I downloaded from IPUMS NHGIS by hand (see nhgis0002_csv.zip). It also needs GEOJSON perimeter coordinates of each census tract in California, which are downloaded automatically via this program. This program does a lot of density distribution analysis to try to get a good density color scale on the map. That part is still a work in progress.
 
